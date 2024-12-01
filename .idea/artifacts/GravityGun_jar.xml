@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GravityGun:jar">
+    <output-path>$USER_HOME$/Desktop/Minecraft Server Testing/plugins</output-path>
+    <root id="archive" name="GravityGun.jar">
+      <element id="module-output" name="GravityGun" />
+    </root>
+  </artifact>
+</component>

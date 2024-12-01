@@ -1,0 +1,34 @@
+#  ________                  .__  __             ________
+#    /  _____/___________ ___  _|__|/  |_ ___.__.  /  _____/ __ __  ____
+#    /   \  __\_  __ \__  \\  \/ /  \   __<   |  | /   \  ___|  |  \/    \
+#    \    \_\  \  | \// __ \\   /|  ||  |  \___  | \    \_\  \  |  /   |  \
+#    \______  /__|  (____  /\_/ |__||__|  / ____|  \______  /____/|___|  /
+#    \/           \/               \/              \/           \/
+
+license:
+  token: ""
+
+settings:
+  can_be_dropped: true
+  enabled_throwing: true
+  messages: true #this will toggle the messages for throwing and picking up entities/blocks.
+  tnt_exploding: false #tnt exlodes in the air when thrown
+
+gravitygun:
+  name: "&bGravity Gun"
+  lore:
+    - "&7A powerful tool to move blocks and entities."
+    - "&7Right-click to pick up."
+    - "&7Left-click to throw."
+
+messages:
+  gained_gun: "&b[GG] You have been given the Gravity Gun!"
+  already_carrying: "&b[GG] You're already carrying something!"
+  not_carrying: "&b[GG] You are not carrying anything!"
+  carrying_block: "&b[GG] You are now carrying a block!"
+  carrying_entity: "&b[GG] You are now carrying %entity%!"
+  dropped_item: "&b[GG] You dropped the carried entity/block!"
+  threw_item: "&b[GG] You threw the carried entity/block!"
+  toggle_gone: "&b[GG] The gravitygun has been removed."
+  no_valid_target: "&b[GG] There is nothing for you to pickup."
+  invalid_permissions: "&b[GG] Invalid Permissions to do this!"

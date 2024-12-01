@@ -1,0 +1,19 @@
+name: GravityGun
+version: '1.0-SNAPSHOT'
+main: me.imedia.gravityGun.GravityGun
+api-version: '1.21'
+commands:
+  gravitygun:
+    description: Gives the player a Gravity Gun.
+    usage: /gravitygun
+  gravityreload:
+    description: Reloads the config.
+    usage: /gravityreload
+
+permissions:
+  gravitygun.use:
+    description: Allows the player to use the Gravity Gun
+    default: op
+  gravitygun.reload:
+    description: Reloads the configuration file
+    default: op
